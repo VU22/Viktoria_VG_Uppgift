@@ -1,0 +1,341 @@
+{
+	"id": "951d488e-a4d2-461f-84f0-5bdd29a23254",
+	"name": "Test collection",
+	"timestamp": "2023-09-11T07:38:06.023Z",
+	"collection_id": "29559386-301c7f41-5e87-4c9c-a2d6-1d33ddaf638f",
+	"folder_id": 0,
+	"environment_id": "29559386-e1d5a940-1dfc-47ba-aafd-baeb9d87a188",
+	"totalPass": 24,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-09-11T07:38:03.606Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "46b1ba76-ca83-41f5-91f9-77a0578707d8",
+			"name": "CreateToken",
+			"url": "https://restful-booker.herokuapp.com/auth",
+			"time": 497,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Content-Type is present": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				497
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true
+				}
+			]
+		},
+		{
+			"id": "84830b0a-00f3-428b-a721-773715a59408",
+			"name": "GetBookingIds",
+			"url": "https://restful-booker.herokuapp.com/booking/",
+			"time": 239,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Content-Type is present": true,
+				"Response body is a JSON": true,
+				"JSON value is a number": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response body is a JSON": {
+					"pass": 1,
+					"fail": 0
+				},
+				"JSON value is a number": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				239
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Response body is a JSON": true,
+					"JSON value is a number": true
+				}
+			]
+		},
+		{
+			"id": "68962133-0382-4322-9eef-0f77c3ff399f",
+			"name": "CreateBooking",
+			"url": "https://restful-booker.herokuapp.com/booking/",
+			"time": 202,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Content-Type is present": true,
+				"Response schema is correct": true,
+				"JSON values are correct types": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response schema is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"JSON values are correct types": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				202
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Response schema is correct": true,
+					"JSON values are correct types": true
+				}
+			]
+		},
+		{
+			"id": "1b0d9b25-1228-4aa3-875c-8601be8a1558",
+			"name": "GetBooking",
+			"url": "https://restful-booker.herokuapp.com/booking/3",
+			"time": 167,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Content-Type is present": true,
+				"Response schema is correct": true,
+				"JSON values are correct types": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response schema is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"JSON values are correct types": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				167
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Response schema is correct": true,
+					"JSON values are correct types": true
+				}
+			]
+		},
+		{
+			"id": "6dbf0f55-1322-4f39-a02f-43abf9e5810e",
+			"name": "UpdateBooking",
+			"url": "https://restful-booker.herokuapp.com/booking/3",
+			"time": 121,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Content-Type is present": true,
+				"Response time is less than 200ms": true,
+				"Response schema is correct": true,
+				"JSON values are correct types": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response schema is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"JSON values are correct types": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				121
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Response time is less than 200ms": true,
+					"Response schema is correct": true,
+					"JSON values are correct types": true
+				}
+			]
+		},
+		{
+			"id": "d1775a80-faab-4840-b588-3e7f358e9a41",
+			"name": "PartialUpdateBooking",
+			"url": "https://restful-booker.herokuapp.com/booking/3",
+			"time": 119,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Content-Type is present": true,
+				"Response schema is correct": true,
+				"JSON values are correct types": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response schema is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"JSON values are correct types": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				119
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Response schema is correct": true,
+					"JSON values are correct types": true
+				}
+			]
+		},
+		{
+			"id": "98209e79-c313-4fe7-862d-4db3bae9fa0c",
+			"name": "HealthCheck",
+			"url": "https://restful-booker.herokuapp.com/ping",
+			"time": 121,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				121
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1466,
+	"collection": {
+		"requests": [
+			{
+				"id": "46b1ba76-ca83-41f5-91f9-77a0578707d8",
+				"method": "POST"
+			},
+			{
+				"id": "84830b0a-00f3-428b-a721-773715a59408",
+				"method": "GET"
+			},
+			{
+				"id": "68962133-0382-4322-9eef-0f77c3ff399f",
+				"method": "POST"
+			},
+			{
+				"id": "1b0d9b25-1228-4aa3-875c-8601be8a1558",
+				"method": "GET"
+			},
+			{
+				"id": "6dbf0f55-1322-4f39-a02f-43abf9e5810e",
+				"method": "PUT"
+			},
+			{
+				"id": "d1775a80-faab-4840-b588-3e7f358e9a41",
+				"method": "PATCH"
+			},
+			{
+				"id": "98209e79-c313-4fe7-862d-4db3bae9fa0c",
+				"method": "GET"
+			}
+		]
+	}
+}
